@@ -1,0 +1,34 @@
+.setTheme {
+  position: fixed;
+  top: 10px;
+  right: 140px;
+  z-index: 99;
+}
+
+.ant-drawer-body {
+  .theme-list {
+    margin-bottom: 20px;
+
+    .round {
+      .circle {
+        width: 20px;
+        height: 20px;
+      }
+
+      margin-left: 20px;
+      width: 28px;
+      height: 28px;
+      cursor: pointer;
+
+      &.selected {
+        border: 2px dotted @text-color;
+      }
+    }
+  }
+
+  .sketch-picker {
+    width: 250px !important;
+    margin-left: -10px;
+    margin-bottom: 10px;
+  }
+}
